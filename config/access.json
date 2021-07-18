@@ -1,0 +1,37 @@
+{
+    "sites": [{
+            "site": "",
+            "access": "public",
+            "role": ""
+        },
+        {
+            "site": "login",
+            "access": "public",
+            "role": ""
+        },
+        {
+            "site": "panel",
+            "access": "private",
+            "role": "admin"
+        },
+        {
+            "site": "home",
+            "access": "private",
+            "role": "user"
+        }
+    ],
+
+    "default-sites": [{
+            "site": "",
+            "role": ""
+        },
+        {
+            "site": "panel",
+            "role": "admin"
+        },
+        {
+            "site":"home",
+            "role":"user"
+        }
+    ]
+}
