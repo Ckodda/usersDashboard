@@ -49,9 +49,9 @@ INSERT INTO user(user_name,user_email,user_pass,id_role) values('paola33','paola
 INSERT INTO user(user_name,user_email,user_pass,id_role) values('lucho45','lucho@gmail.com',SHA1('12345'),2);
 
 -- persona usuario administrador ::::::::: rol id : 1 -admin
-INSERT INTO person(person_name,person_lastname,id_user) values('Pedro','Picapiedra',1);
+INSERT INTO person(person_name,person_lastname,id_user) values('Pedro','Picapiedra','defaul.png',1);
 
 -- personas usuarios normales ::::::: rol id : 2 -user
-INSERT INTO person(person_name,person_lastname,id_user) values('Martin','Chavez Silvio',2);
-INSERT INTO person(person_name,person_lastname,id_user) values('Paola','Gutierrez Lora',2);
-INSERT INTO person(person_name,person_lastname,id_user) values('Lucho','Diaz',2);
+INSERT INTO person(person_name,person_lastname,id_user) values('Martin','Chavez Silvio','defaul.png',2);
+INSERT INTO person(person_name,person_lastname,id_user) values('Paola','Gutierrez Lora','defaul.png',2);
+INSERT INTO person(person_name,person_lastname,id_user) values('Lucho','Diaz','defaul.png',2);
